@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love - Page 2</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffdde6;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #d45579;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #d45579;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #ec688f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Love for You Grows</h1>
+        <p>With every moment we share, my love for you grows deeper and stronger.</p>
+        <a href="page3.html">Final Page</a>
+    </div>
+</body>
+</html>

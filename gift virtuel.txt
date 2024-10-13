@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love - Page 3</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff0f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffccf2;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #b34b6c;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .heart {
+            font-size: 80px;
+            color: #ff5e6c;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #b34b6c;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #d16088;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Forever Yours</h1>
+        <p>In every heartbeat, every smile, and every look, I am yours, forever and always.</p>
+        <div class="heart">💖</div>
+        <p><a href="#">Return to Page 1</a></p>
+    </div>
+</body>
+</html>
